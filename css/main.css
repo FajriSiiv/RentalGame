@@ -87,7 +87,7 @@ header .container .nav-items a:hover {
 
 header i.fas.fa-bars {
   display: none;
-  color: #ffffff;
+  color: black;
 }
 
 @media screen and (max-width: 599px) {
