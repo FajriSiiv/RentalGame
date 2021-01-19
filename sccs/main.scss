@@ -51,7 +51,7 @@ header {
         transition: all 0.2s;
         color: rgb(0, 0, 0);
         &:hover {
-          color: #ffffff;
+          color: #8bb9ff;
         }
       }
     }
@@ -62,7 +62,7 @@ header {
         flex-direction: column;
         width: 100vw !important;
         text-align: center;
-        background-color: rgb(46, 46, 46);
+        background-color: rgb(255, 255, 255);
         transform: translateY(-100%);
         transition: 0.3s;
         top: 0;
@@ -70,6 +70,9 @@ header {
         justify-content: center !important;
         gap: 10px;
         letter-spacing: 2px;
+        a {
+          font-size: 22px;
+        }
       }
     }
   }
